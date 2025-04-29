@@ -32,7 +32,7 @@ public class Main {
      */
     public static void selectionSort(int[] nums) {
         for (int i = 0; i < nums.length - 1; i++) {
-            int minIdx = nums[i];
+            int minIdx = i;
 
             for (int j = i + 1; j < nums.length; j++) {
                 if (nums[j] < nums[minIdx]) {
